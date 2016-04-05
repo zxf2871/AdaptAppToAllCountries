@@ -18,11 +18,8 @@ public class Main {
     public static void main(String args[]) {
         List<Language> languages =  Util.getLanguage(System.getProperty("user.dir")+"\\countrycode.xls",System.getProperty("user.dir")+"\\translation.xls");
         for(Language language:languages) {
-<<<<<<< HEAD
-            FileUtil.makeValuesFile(language);////////////////////////////////////////////////////
-=======
-                                FileUtil.makeValuesFile(language);/////////
->>>>>>> 0dd3f55435fb5ff2b02b114116ced11d421efdb5
+
+                                FileUtil.makeValuesFile(language);/////            ////
         }
         System.out.println("addFile: " + addCount+"   updateFile: "+updateCount);
 
